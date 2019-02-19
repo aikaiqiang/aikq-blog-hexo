@@ -1,0 +1,10 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+install:
+- npm install
+
+script:
+- hexo g
+- hexo d

@@ -34,5 +34,5 @@ env:
   # Github Pages
   #- GH_REF: github.com/qinyuanpei/qinyuanpei.github.io
   # Coding Pages
-  - CO_REF: https://git.dev.tencent.com/aikaiqiang/blog.git
+  - CO_REF: git@git.dev.tencent.com:aikaiqiang/blog.git
   - TRAVIS_BUILD_NUMBER: v0.0.1 # 版本号

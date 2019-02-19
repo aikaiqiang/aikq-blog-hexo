@@ -7,4 +7,31 @@ install:
 
 script:
 - hexo g
-- hexo d
+
+after_script:
+- cd ./public
+- git init
+- git config user.name "aikaiqiang"
+- git config user.email "akqdream@163.com"
+- git add .
+- git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+# Github Pages
+#- git push --force --quiet "https://${CI_TOKEN}@${GH_REF}" master:master
+# Coding Pages
+- git push --force --quiet "https://aikaiqiang:${Coding_Token}@${CO_REF}" master:master
+- git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+# Github Pages
+#- git push --quiet "https://${CI_TOKEN}@${GH_REF}" master:master --tags
+# Coding Pages
+#- git push --quiet "https://qinyuanpei:${CO_TOKEN}@${CO_REF}" master:master --tags
+
+branches:
+  only:
+  - master
+
+env:
+  global:
+  # Github Pages
+  #- GH_REF: github.com/qinyuanpei/qinyuanpei.github.io
+  # Coding Pages
+  - CO_REF: https://git.dev.tencent.com/aikaiqiang/blog.git

@@ -15,15 +15,16 @@ after_script:
 - git config user.email "akqdream@163.com"
 - git add .
 - git commit -m "Update Blog By TravisCI With Build ${TRAVIS_BUILD_NUMBER}"
-# Github Pages
-#- git push --force --quiet "https://${CI_TOKEN}@${GH_REF}" master:master
+
 # Coding Pages
 - git push --force --quiet "https://aikaiqiang:${Coding_Token}@${CO_REF}" master:master
 - git tag ${TRAVIS_BUILD_NUMBER} -a -m "Auto Taged By TravisCI With Build ${TRAVIS_BUILD_NUMBER}"
-# Github Pages
-#- git push --quiet "https://${CI_TOKEN}@${GH_REF}" master:master --tags
 # Coding Pages
 - git push --quiet "https://aikaiqiang:${Coding_Token}@${CO_REF}" master:master --tags
+
+# Github Pages
+- git push --force --quiet "https://${CI_TOKEN}@${GH_REF}" master:master
+- git push --quiet "https://${CI_TOKEN}@${GH_REF}" master:master --tags
 
 branches:
   only:
@@ -32,7 +33,7 @@ branches:
 env:
   global:
   # Github Pages
-  #- GH_REF: github.com/qinyuanpei/qinyuanpei.github.io
+  - GH_REF: github.com:aikaiqiang/aikaiqiang.github.io.git
   # Coding Pages
   - CO_REF: git.dev.tencent.com/aikaiqiang/blog.git
   - TRAVIS_BUILD_NUMBER: v0.0.3 # 版本号

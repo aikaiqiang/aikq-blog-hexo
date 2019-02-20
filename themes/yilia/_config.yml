@@ -130,8 +130,10 @@ smart_menu:
 
 friends:
   litten: http://litten.me/
+  zhisheng: http://www.54tianzhisheng.cn
+  lawlite: http://lawlite.me/
 
-aboutme: <br>一名Java后台开发，喜欢玩各种技术，兴趣就是我学习的动力<br>邮箱：akqdream@163.com<br>Keep Studying<br>努力奋斗!
+aboutme: 一名Java后台开发，喜欢玩各种技术，兴趣就是我学习的动力<br>联系邮箱：akqdream@163.com
 
 # 版权参数配置
 declare_type: 1

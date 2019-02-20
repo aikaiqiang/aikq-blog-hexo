@@ -7,6 +7,7 @@ tags:
    - Docker Registry
 categories:
    - Docker
+toc: true
 ---
 
 （本次操作基于CentOS 7部署）

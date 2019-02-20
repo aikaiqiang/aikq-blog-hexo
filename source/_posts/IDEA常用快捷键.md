@@ -6,7 +6,7 @@ tags:
    - 工具
 categories:
    - 工具
-
+toc: true
 ---
 
 ## IDEA 常用快捷键

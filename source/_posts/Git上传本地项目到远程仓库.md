@@ -5,6 +5,7 @@ tags:
    - Git
 categories:
    - Git
+toc: true
 ---
 
 ### 初始化本地仓库

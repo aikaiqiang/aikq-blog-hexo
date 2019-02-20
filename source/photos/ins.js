@@ -78,13 +78,6 @@
         default: obj
       };
     }
-
-    /**
-     * @name impush-client 
-     * @description 这个项目让我发家致富…
-     * @date 2016-12-1
-     */
-
     var _collection = [];
     var _count = 0;
     var searchData;

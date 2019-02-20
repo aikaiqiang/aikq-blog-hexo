@@ -17,6 +17,8 @@ declare: true
 
 在Harbor路径下找到文件 docker-compose.yml，我本地路径是 /usr/local/harbor
 
+<!-- more -->
+
 {% asset_img harbor_dir.png  %}
 
 编辑文件：

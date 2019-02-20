@@ -22,6 +22,8 @@ git add .
 git commit -m "提交备注"
 ```
 
+<!-- more -->
+
 ### 创建SSH KEY 链接远程仓库
 
 - 本地生成ssh key

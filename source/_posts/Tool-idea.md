@@ -10,10 +10,12 @@ toc: true
 declare: true
 ---
 
-## IDEA 常用快捷键
+## IDEA 快捷键
 
 Ctrl+Shift + Enter，语句完成
 “！”，否定完成，输入表达式时按 “！”键
+
+<!-- more -->
 
 #### 文件操作
 

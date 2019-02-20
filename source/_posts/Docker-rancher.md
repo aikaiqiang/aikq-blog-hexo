@@ -11,7 +11,7 @@ toc: true
 declare: true
 ---
 
-（本次操作基于CentOS 7部署）
+>摘要：本次操作基于CentOS 7部署
 
 ### 安装Docker
 
@@ -19,6 +19,8 @@ declare: true
 ```shell
 yum -y install docker
 ```
+
+<!-- more -->
 
 #### 启动docker
 ```bash

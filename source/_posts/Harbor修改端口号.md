@@ -8,6 +8,7 @@ tags:
 categories:
    - Docker
 toc: true
+declare: true
 ---
 
 背景：之前安装Harbor时默认安装的，服务端口默认占用80和443，后来有同事要用到80端口，为了满足同时的需求，不得不麻烦自己修改端口了。

@@ -7,6 +7,7 @@ tags:
 categories:
    - 工具
 toc: true
+declare: true
 ---
 
 ## IDEA 常用快捷键

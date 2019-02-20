@@ -70,7 +70,7 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-baidu_analytics: ''
+baidu_analytics: '307caba30ff3540fd1a78d06c550265e'
 google_analytics: 'UA-134633587-1'
 favicon: /favicon.png
 
@@ -131,4 +131,10 @@ smart_menu:
 friends:
   litten: http://litten.me/
 
-aboutme: 一名Java后台开发，喜欢玩各种技术，兴趣就是我学习的动力<br>邮箱：akqdream@163.com<br>Keep Studying<br>努力奋斗!
+aboutme: <br>一名Java后台开发，喜欢玩各种技术，兴趣就是我学习的动力<br>邮箱：akqdream@163.com<br>Keep Studying<br>努力奋斗!
+
+# 版权参数配置
+declare_type: 1
+licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
+licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png

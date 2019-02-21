@@ -17,7 +17,6 @@ steps:
 
 - script: |
     npm install
-  displayName: 'npm install'
-- bash: 
-    hexo g
+    hexo general
+  displayName: 'npm install and hexo g'
 

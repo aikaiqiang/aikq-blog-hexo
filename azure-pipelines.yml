@@ -17,6 +17,7 @@ steps:
 
 - script: |
     npm install
-    hexo general
+    npm install hexo --save
+    hexo g
   displayName: 'npm install and hexo g'
 

@@ -125,7 +125,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: 'ALL'
-  friends: '友链'
+  friends: '技术学习站'
   aboutme: '关于我'
 
 friends:
@@ -136,6 +136,8 @@ friends:
   董可伦: https://dongkelun.com/
   lawlite: http://lawlite.me/
   carl.zhao: http://www.carlzone.cn
+  Java-田守枝: http://www.tianshouzhi.com
+  微服务-Aoho'Blogs: http://blueskykong.com
 
 aboutme: 一名Java后台开发，喜欢玩各种技术，兴趣就是我学习的动力<br>联系邮箱：akqdream@163.com
 

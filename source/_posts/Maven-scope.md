@@ -6,6 +6,7 @@ tags:
 categories:
    - Maven
 toc: true
+declare: true
 ---
 
 使用Maven构建项目已经很久了，但是经常使用的默认配置向；默认的依赖配置项中，scope的默认值是compile；还有很多其他值都不太清楚具体作用，今天详细学习下 scope 不同值的作用；

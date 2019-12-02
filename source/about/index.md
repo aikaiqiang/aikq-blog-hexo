@@ -6,9 +6,9 @@ comments: false
 
 ### 艾凯强
 
-Phone: 18782206113　　　　Email: akqdream@163.com　　　Work-Experience: 2.5 years
+Phone: 18782206113　　　　Email: akqdream@163.com　　　Work-Experience: 3.5 years
 
-GitHub: github.com/aikaiqiang　　　　Blog: http://akq.zhangzetao.cn
+GitHub: github.com/aikaiqiang　　　　Blog: https://www.aikaiqiang.cn
 
 ---
 

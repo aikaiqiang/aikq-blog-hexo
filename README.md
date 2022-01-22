@@ -4,4 +4,4 @@
 
 [![](https://img.shields.io/travis/aikaiqiang/aikq-blog-hexo.svg)](https://www.travis-ci.org/aikaiqiang/aikq-blog-hexo)
 
-日常随笔，记录一些脑容量容不下的
+NOTE
